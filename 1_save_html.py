@@ -4,8 +4,11 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from dotenv import load_dotenv
 
+load_dotenv()
 #%%
+
 driver = webdriver.Chrome()
 
 driver.get("https://www.104.com.tw/jobs/main/")
